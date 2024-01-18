@@ -58,7 +58,13 @@ nav {
 	background-position: center;
 }
 /* First Page */
-
+.border{
+	height:1em;
+	background: linear-gradient(
+		to bottom left,
+		rgb(161, 46, 46),
+		rgb(129, 128, 128));
+}
 .first-page {
 	height: auto;
 	background: linear-gradient(
@@ -100,7 +106,13 @@ nav {
 }
 
 /* MAIN WEBSITE */
-
+.border2{
+	height:1em;
+	background: linear-gradient(
+		to bottom left,
+		rgb(161, 46, 46),
+		rgb(173, 172, 171));
+}
 .SECTION-CONTAINER {
 	height: auto;
 	background-color: rgb(165, 164, 163);
@@ -109,12 +121,8 @@ nav {
 	justify-content: space-around;
 	padding: 11em;
 }
-.section-text {
-	position: absolute;
-}
 
 .wrapp-section {
-	border: solid 2px white;
 	height: auto;
 	width: 90%;
 	display: flex;
@@ -123,9 +131,87 @@ nav {
 	padding-top: 1em;
     gap: 2em;
 }
-
 .wrapp-box {
 	height: 50em;
 	width: 40em;
 	border: solid 2px red;
+	border-radius: 1em;
 }
+
+.przemysl{
+	background-color: aqua;
+}
+
+
+
+
+
+
+
+    /* WRAPP_BOX ELEMENTS FOTO */
+
+	.wrapp {
+		background-position: center;
+		border-radius: 1.5em;
+		border: solid 1px;
+		box-shadow: 2px 2px 10px;
+	}
+	.foto1{
+		background-image: url(/photos/400592734_253552677714154_5727121380641852041_n.jpg);
+		background-size: cover;
+	background-position: center;
+	
+	}
+	.foto2{
+		background-image: url(/photos/401851179_253552337714188_1302958130231227265_n.jpg);
+		background-size: cover;
+	background-position: center;
+	
+
+	}
+	.foto3{
+		background-image:url(/photos/joniec.jpg);
+		background-size: cover;
+	background-position: center;
+	
+
+	}
+	.foto4{
+		background-image: url(/photos/tynk.jpg);
+		background-size: cover;
+	background-position: center;
+
+	}
+	.foto5{
+		background-image: url(/photos/elementyJoniec.jpg);
+		background-size: cover;
+	background-position: center;
+	
+	}
+	.foto6{
+		background-image: url(/photos/zdj\ siatka.jpg);
+		background-size: cover;
+	background-position: center;
+	
+	}
+	.foto7{
+		background-image: url(/photos/przemysłowa\ bryły.jpg);
+		background-size: cover;
+	background-position: center;
+	
+	}
+	.foto8{
+		background-image: url(/photos/elementy.jpg);
+		background-size: cover;
+	background-position: center;
+
+	}
+	.foto9{
+		background-image: url(/photos/joniecMOr.jpg);
+		background-size: cover;
+	background-position: center;
+	
+	}
+
+	
+	
