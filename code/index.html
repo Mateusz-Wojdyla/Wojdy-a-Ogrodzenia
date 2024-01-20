@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Ogrodzenia Wojdyła</title>
+    <style>
+        html {
+          scroll-behavior: smooth;
+        }
+      </style>
+      
 </head>
 <body>
     <nav>
            <div class="nav-container">
                 
                 <div class="nav">
-                    <a href="#" class="menu">Strona Główna</a>
-                    <a href="#" class="menu">O Nas</a>
-                    <a href="#" class="menu">Oferta</a>
-                    <a href="#" class="menu">Kontakt</a>
+                    <a href="#section-home" class="menu smooth-scroll">Strona Główna</a>
+                    <a href="#section-about" class="menu smooth-scroll">O Nas</a>
+                    <a href="#secrion-ofert" class="menu smooth-scroll">Oferta</a>
+                    <a href="#section-kontakt" class="menu smooth-scroll">Kontakt</a>
                 </div>
            </div>
 
@@ -23,14 +29,14 @@
 
 
     <heder>
-        <div class="container-foto">
+        <div id="section-home" class="container-foto">
             <div class="foto-logo"></div>
         </div>
     </heder>
 
     <main>
         <div class="border"></div>
-        <div class="first-page">
+        <div id="section-about" class="first-page">
             <div class="about">
                     <div class="info">Tworzymy ogrodzenia z pasją od ponad 20 lat. Posiadamy bogate doświadczenie, a nasze portfolio obejmuje setki zrealizowanych projektów i zadowolonych klientów. Z nami spełnisz swoje marzenia o idealnym ogrodzeniu, wykonanym z najwyższą starannością i fachowością.<br><br>
 
@@ -39,7 +45,7 @@
                         Zaufaj firmie Ogrodzenia Wojdyła, a pomożemy Ci zrealizować Twoje marzenia o doskonałym otoczeniu. </div>
             </div>
 
-            <div class="galery-wrap">
+            <div  class="galery-wrap">
                 <div class="foto1  wrapp" ></div>
                 <div class="foto2  wrapp" ></div>
                 <div class="foto3  wrapp" ></div>
@@ -54,39 +60,53 @@
             
         <div class="border2"></div>
 
-        <div class="SECTION-CONTAINER">
+        <div id="secrion-ofert" class="SECTION-CONTAINER">
             <h1 class="oferta">Nasza oferta</h1>
 
             <div class="wrapp-section">
                 <div class="wrapp-box standard">
                     
                     <h2 class="title">Ogrodzenia Standardowe</h2>
-                    <div class="foto-standard"></div>
+                    <div class="foto-standard foto-ofert"></div>
                     <div class="overlay"></div>
 
                 </div>
                 <div class="wrapp-box ozdobne">
-                    <h2>Ogrodzenia ozdobne</h2>
+                    <h2 class="title">Ogrodzenia ozdobne</h2>
+                    <div class="foto-ozdobne foto-ofert"></div>
                 </div>
-                <!-- <div class="wrapp-box  przemysł">
-                    <h2>Ogrodzenia przemysłowe</h2>
-                </div> -->
+                
                 <div class="wrapp-box  budownictwo">
-                    <h2>Budwonictwo</h2>
+                    <h2 class="title">Budwonictwo</h2>
+                    <div class="foto-budownictwo foto-ofert"></div>
                 </div>
                 <div class="wrapp-box  koparka">
-                    <h2>Usługi Koparką</h2>
+                    <h2 class="title">Usługi Koparką</h2>
+                    <div class="foto-koparka foto-ofert"></div>
                 </div>
                 <div class="wrapp-box wycena">
-                    <h2>Doradztwo i wycena</h2>
+                    <h2 class="title">Doradztwo i wycena</h2>
+                    <div class="foto-wycena foto-ofert"></div>
                 </div>
                 <div class="wrapp-box pozostałe">
-                    <h2>pozostałe indywidualne usługi</h2></div>
+                    <h2 class="title">pozostałe indywidualne usługi</h2>
+                    <div class="foto-pozostałe foto-ofert"></div>
+                </div>
 
             </div>
             <div class="border3"></div>
+
         </div>
-            
+            <div class="border3"></div>
+
+
+            <div id="section-kontakt">
+
+            </div><div class="kontakt">
+
+            </div>
+
+            <div class="footer"></div>
 
 
 

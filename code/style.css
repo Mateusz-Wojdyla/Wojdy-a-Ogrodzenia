@@ -3,6 +3,14 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+.smooth-scroll {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .smooth-scroll:hover {
+    color: blue; /* Zmiana koloru przy najechaniu myszką (opcjonalne) */
+  }
 /* Navigarion on website */
 nav {
 	height: 8em;
@@ -146,7 +154,16 @@ nav {
 	
 	
 }
-
+.foto-ofert{
+	height:50%;
+	width:100%;
+	padding-top:-1em;
+	background-image: url(/photos/siatka11.avif);
+	background-size: cover;
+	background-position: center;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 1em;
+}
 .standard{
 	background-color: rgb(210, 212, 212);
 	display: flex;
@@ -176,6 +193,21 @@ nav {
 	border-top-left-radius: 1em;
 
 }
+.foto-ozdobne{
+	
+}
+.foto-budownictwo{
+	background-image: url(/photos/budowa.webp);
+}
+.foto-koparka{
+	background-image: url(/photos/koparka.jpg);
+}
+.foto-wycena{
+	background-image: url(/photos/wycena.webp);
+}
+.foto-pozostałe{
+
+}
 
 
 
@@ -187,7 +219,18 @@ nav {
 		rgb(173, 172, 171));
 }
 
+.kontakt{
+	height:40em;
+	background-color: aquamarine;
+}
 
+
+
+
+.footer{
+	height:20em;
+	background:black;
+}
 
 
 
@@ -201,6 +244,7 @@ nav {
 		border: solid 1px;
 		box-shadow: 2px 2px 10px;
 	}
+
 	.foto1{
 		background-image: url(/photos/400592734_253552677714154_5727121380641852041_n.jpg);
 		background-size: cover;
