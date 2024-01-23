@@ -4,13 +4,13 @@
 	box-sizing: border-box;
 }
 .smooth-scroll {
-    cursor: pointer;
-    transition: color 0.3s ease-in-out;
-  }
+	cursor: pointer;
+	transition: color 0.3s ease-in-out;
+}
 
-  .smooth-scroll:hover {
-    color: blue; /* Zmiana koloru przy najechaniu myszką (opcjonalne) */
-  }
+.smooth-scroll:hover {
+	color: blue; /* Zmiana koloru przy najechaniu myszką (opcjonalne) */
+}
 /* Navigarion on website */
 nav {
 	height: 8em;
@@ -67,12 +67,13 @@ nav {
 	background-position: center;
 }
 /* First Page */
-.border{
-	height:1em;
+.border {
+	height: 1em;
 	background: linear-gradient(
 		to bottom left,
 		rgb(161, 46, 46),
-		rgb(129, 128, 128));
+		rgb(129, 128, 128)
+	);
 }
 .first-page {
 	height: auto;
@@ -81,6 +82,7 @@ nav {
 		rgb(70, 69, 69),
 		rgb(165, 164, 163)
 	);
+
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -89,13 +91,13 @@ nav {
 .about {
 	height: 20em;
 	width: 25em;
-	font-size: 2.5em;
+	font-size: 2em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-left: 4em;
-	font-family:Arial, Helvetica, sans-serif;
-	color:rgb(41, 41, 41);
+	margin-left: 2em;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(41, 41, 41);
 }
 .galery-wrap {
 	height: 63em;
@@ -103,7 +105,7 @@ nav {
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 	grid-template-rows: 33% 33% 33%;
-    gap: 1em;
+	gap: 1em;
 }
 
 .galery-foto {
@@ -111,18 +113,19 @@ nav {
 	border: dotted 2px white;
 	align-items: center;
 	border-radius: 1.5em;
-	padding-top:1em;
-    padding-right:1em;
-    padding-left:1em;
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
 /* MAIN WEBSITE */
-.border2{
-	height:1em;
+.border2 {
+	height: 1em;
 	background: linear-gradient(
 		to bottom left,
 		rgb(161, 46, 46),
-		rgb(173, 172, 171));
+		rgb(173, 172, 171)
+	);
 }
 .SECTION-CONTAINER {
 	height: auto;
@@ -141,166 +144,251 @@ nav {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding-top: 1em;
-    gap: 2em;
+	gap: 2em;
 }
 .wrapp-box {
 	height: 50em;
 	width: 40em;
 	border: solid 2px rgb(0, 0, 0);
-	box-shadow: 2px 2px 10px;;
+	box-shadow: 2px 2px 10px;
 	border-radius: 1em;
 	display: flex;
 	justify-content: center;
-	
-	
+	flex-direction: column;
 }
-.foto-ofert{
-	height:50%;
-	width:100%;
-	padding-top:-1em;
+.overlay {
+	height: 50%;
+	width: 100%;
+	padding: 2em;
+	background-color: rgb(210, 212, 212);
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+}
+.foto-ofert {
+	height: 60%;
+	width: 100%;
+	padding-top: -1em;
 	background-image: url(/photos/siatka11.avif);
 	background-size: cover;
 	background-position: center;
 	border-top-right-radius: 1em;
 	border-top-left-radius: 1em;
 }
-.standard{
+.standard {
 	background-color: rgb(210, 212, 212);
 	display: flex;
 	justify-content: center;
-	
-	
 }
-.title{
+.title {
 	position: absolute;
-	padding-top:2em;
+	padding-top: 5em;
+	padding-left: 2em;
 }
-.oferta{
-	position:static;
+.oferta {
+	position: absolute;
 	display: flex;
-	align-self: flex-start;
-	justify-content: center;
-	
+	top: 2em;
+	text-align: center;
 }
-.foto-standard{
-	height:50%;
-	width:100%;
-	padding-top:-1em;
+.foto-standard {
+	height: 60%;
+	width: 100%;
+	padding-top: -1em;
 	background-image: url(/photos/siatka11.avif);
 	background-size: cover;
 	background-position: center;
 	border-top-right-radius: 1em;
 	border-top-left-radius: 1em;
-
 }
-.foto-ozdobne{
-	
+.overlay > ul > li {
+	color: rgb(5, 5, 5);
+	padding-top: 1em;
+	font-size: 20px;
+	margin-left: 1em;
 }
-.foto-budownictwo{
+.foto-ozdobne {
+	background-image: url(/photos/ozdobne.jpg);
+}
+.foto-budownictwo {
 	background-image: url(/photos/budowa.webp);
 }
-.foto-koparka{
+.foto-koparka {
 	background-image: url(/photos/koparka.jpg);
 }
-.foto-wycena{
+.foto-wycena {
 	background-image: url(/photos/wycena.webp);
 }
-.foto-pozostałe{
-
+.foto-pozostałe {
+	background-image: url(/photos/konsultacje.jpg);
 }
 
-
-
-.border3{
-	height:1em;
+.border3 {
+	height: 1em;
 	background: linear-gradient(
 		to bottom left,
 		rgb(161, 46, 46),
-		rgb(173, 172, 171));
+		rgb(173, 172, 171)
+	);
 }
 
-.kontakt{
-	height:40em;
+   /* CONTACT */
+.kontakt {
+	height: 45em;
 	background-color: aquamarine;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.h1-kontakt{
+	display: flex;
+	position: absolute;
+
+}
+.kontakt-text{
+	border:solid 2px red;
+	height:50%;
+	width:40em;
+	display: flex;
+	margin-right:10em;
+	justify-content: center;
+}
+.main-kontakt{
+	
+	height:90%;
+	padding-top:2em;
+	position: relative;	
+}
+.kontakt-content{
+	margin-top:3em;
+}
+.col{
+	height:5em;
+	width:20em;
+	border-radius: 1em;
+	font-size: 16px;
+	padding-left: 2em;;
+}
+.col-1{
+	display: flex;
+	position: absolute;
+	margin-top:3em;
+	padding-top:2em;
+	padding-left:2em;
+	font-size: 16px;
+	width:50em;
+	height:25em;
+}
+.btn{
+	display: flex;
+	position: absolute;
+	bottom:1em;
+	height:3em;
+	width:15em;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	font-weight: 600;
+	border:none;
+	
+}
+.btn:hover{
+	background-color: aqua;
+	cursor:pointer;
+
 }
 
+/* FOOTER */
 
-
-
-.footer{
-	height:20em;
-	background:black;
+.footer {
+	background-color: rgb(34, 33, 33);
+	color:whitesmoke;
+	height: 20em;
+	padding:3em;
+	display: flex;
+	justify-content: space-between;
+}
+.box-nav {
+	color:whitesmoke;
+	height: 100%;
+	width:30%;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration-color: whitesmoke;
 }
 
+.box-kontakt {
+	color:whitesmoke;
+	height: 100%;
+	width:30%;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
-
-
-
-    /* WRAPP_BOX ELEMENTS FOTO */
-
-	.wrapp {
-		background-position: center;
-		border-radius: 1.5em;
-		border: solid 1px;
-		box-shadow: 2px 2px 10px;
-	}
-
-	.foto1{
-		background-image: url(/photos/400592734_253552677714154_5727121380641852041_n.jpg);
-		background-size: cover;
-	background-position: center;
+.box-region {
 	
-	}
-	.foto2{
-		background-image: url(/photos/401851179_253552337714188_1302958130231227265_n.jpg);
-		background-size: cover;
-	background-position: center;
-	
+	height: 100%;
+	width:30%;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
-	}
-	.foto3{
-		background-image:url(/photos/joniec.jpg);
-		background-size: cover;
-	background-position: center;
-	
+/* WRAPP_BOX ELEMENTS FOTO */
 
-	}
-	.foto4{
-		background-image: url(/photos/tynk.jpg);
-		background-size: cover;
+.wrapp {
 	background-position: center;
+	border-radius: 1.5em;
+	border: solid 1px;
+	box-shadow: 2px 2px 10px;
+}
 
-	}
-	.foto5{
-		background-image: url(/photos/elementyJoniec.jpg);
-		background-size: cover;
+.foto1 {
+	background-image: url(/photos/400592734_253552677714154_5727121380641852041_n.jpg);
+	background-size: cover;
 	background-position: center;
-	
-	}
-	.foto6{
-		background-image: url(/photos/zdj\ siatka.jpg);
-		background-size: cover;
+}
+.foto2 {
+	background-image: url(/photos/401851179_253552337714188_1302958130231227265_n.jpg);
+	background-size: cover;
 	background-position: center;
-	
-	}
-	.foto7{
-		background-image: url(/photos/przemysłowa\ bryły.jpg);
-		background-size: cover;
+}
+.foto3 {
+	background-image: url(/photos/joniec.jpg);
+	background-size: cover;
 	background-position: center;
-	
-	}
-	.foto8{
-		background-image: url(/photos/elementy.jpg);
-		background-size: cover;
+}
+.foto4 {
+	background-image: url(/photos/tynk.jpg);
+	background-size: cover;
 	background-position: center;
-
-	}
-	.foto9{
-		background-image: url(/photos/joniecMOr.jpg);
-		background-size: cover;
+}
+.foto5 {
+	background-image: url(/photos/elementyJoniec.jpg);
+	background-size: cover;
 	background-position: center;
-	
-	}
-
-	
-	
+}
+.foto6 {
+	background-image: url(/photos/zdj\ siatka.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.foto7 {
+	background-image: url(/photos/przemysłowa\ bryły.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.foto8 {
+	background-image: url(/photos/elementy.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.foto9 {
+	background-image: url(/photos/joniecMOr.jpg);
+	background-size: cover;
+	background-position: center;
+}
